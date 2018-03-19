@@ -1,146 +1,176 @@
+
+(deftemplate interestingThemeFor
+    (slot forWhom
+        (type STRING)
+        (default "Unknown")
+    )
+    (slot interestingTheme
+        (type STRING)
+        (default "Unknown")
+    )
+)
+(deftemplate arrangeTimeFor
+    (slot forWhom
+        (type STRING)
+        (default "Unknown")
+    )
+    (slot time
+        (type INTEGER)
+        (default 1)
+    )
+)
+(deftemplate actualThemeFor
+    (slot forWhom
+        (type STRING)
+        (default "Unknown")
+    )
+    (slot actualTheme
+        (type STRING)
+        (default "Unknown")
+    )
+)
+(deftemplate usefulThemeFor
+    (slot forWhom
+        (type STRING)
+        (default "Unknown")
+    )
+    (slot usefulTheme
+        (type STRING)
+        (default "Unknown")
+    )
+)
+(deftemplate interesingTeacherFor
+    (slot forWhom
+        (type STRING)
+        (default "Unknown")
+    )
+    (slot teacherName
+        (type STRING)
+        (default "Unknown")
+    )
+)
+
+
 (deffacts participantsData "The comment"
 (interestingThemeFor
-	forWhom
-	interestingTheme
+	(forWhom "Igor Pavlov")
+	(interestingTheme "The use of artificial intelligence in personal wireless networks")
 )
 (arrangeTimeFor
-	forWhom
-	time
+	(forWhom "Igor Pavlov")
+	(time 9)
 )
 (actualThemeFor
-	forWhom
-	actualTheme
+	(forWhom "Igor Pavlov")
+	(actualTheme  "The use of artificial intelligence in personal wireless networks")
 )
 (usefulThemeFor
-	forWhom
-	usefulTheme
+	(forWhom "Igor Pavlov")
+	(usefulTheme "The use of artificial intelligence in personal wireless networks")
 )
 (interesingTeacherFor
-	forWhom
-	usefulTheme
-)
-
-
-
-(interestingThemeFor
-	"Igor Pavlov"
-	"The use of artificial intelligence in personal wireless networks"
-)
-(arrangeTimeFor
-	"Igor Pavlov"
-	9 
-)
-(actualThemeFor
-	"Igor Pavlov"
-	"The use of artificial intelligence in personal wireless networks"
-)
-(usefulThemeFor
-	"Igor Pavlov"
-	"The use of artificial intelligence in personal wireless networks"
-)
-(interesingTeacherFor
-	"Igor Pavlov"
-	"Sidorkina Irina Gennadievna"
+	(forWhom "Igor Pavlov")
+	(teacherName "Sidorkina Irina Gennadievna")
 )
 
 
 (interestingThemeFor
-	"Valentin Syharev"
-	"Psychology of Personality"
+	(forWhom "Valentin Syharev")
+	(interestingTheme "Psychology of Personality")
 )
 (arrangeTimeFor  	
-	"Valentin Syharev"
-	11
+	(forWhom "Valentin Syharev")
+	(time 11)
 )
 (actualThemeFor  	
-	"Valentin Syharev"
-	"Psychology of Personality"
+	(forWhom "Valentin Syharev")
+	(actualTheme "Psychology of Personality")
 )
 (usefulThemeFor  	
-	"Valentin Syharev"
-	"Psychology of Personality"
+	(forWhom "Valentin Syharev")
+	(usefulTheme "Psychology of Personality")
 )
 (interesingTeacherFor	
-	"Valentin Syharev"
-	"Hinkanina Alla Leonidovna" 
+	(forWhom "Valentin Syharev")
+	(teacherName "Hinkanina Alla Leonidovna" )
 )
 
 
 
 (interestingThemeFor  
-	"Petr Arbuzov"
-	"Using machine learning to recognize different subjects"
+	(forWhom "Petr Arbuzov")
+	(interestingTheme "Using machine learning to recognize different subjects")
 )
 (arrangeTimeFor  	
-	"Petr Arbuzov"
-	11 
+	(forWhom "Petr Arbuzov")
+	(time 13)
 )
 (actualThemeFor  	
-	"Petr Arbuzov"
-	"Using machine learning to recognize different subjects"
+	(forWhom "Petr Arbuzov")
+	(actualTheme "Using machine learning to recognize different subjects")
 )
 (usefulThemeFor  	
-	"Petr Arbuzov"
-	"Using machine learning to recognize different subjects"
+	(forWhom "Petr Arbuzov")
+	(usefulTheme "Using machine learning to recognize different subjects")
 )
 (interesingTeacherFor	
-	"Petr Arbuzov"
-	"Kuznetsov Vasily Arkadevich"
+	(forWhom "Petr Arbuzov")
+	(teacherName "Kuznetsov Vasily Arkadevich")
 )
 
 
 
 (interestingThemeFor  	
-	"Taras Korobov" 
-	"Using machine learning to recognize different subjects"
+	(forWhom "Taras Korobov") 
+	(interestingTheme "Using machine learning to recognize different subjects")
 )
 (arrangeTimeFor  	
-	"Taras Korobov"
-	8 
+	(forWhom "Taras Korobov")
+	(time 8)
 )
 (actualThemeFor  	
-	"Taras Korobov"
-	"Using machine learning to recognize different subjects"
+	(forWhom "Taras Korobov")
+	(actualTheme "Using machine learning to recognize different subjects")
 )
 (usefulThemeFor  	
-	"Taras Korobov"
-	"Using machine learning to recognize different subjects"
+	(forWhom "Taras Korobov")
+	(usefulTheme "Using machine learning to recognize different subjects")
 )
 (interesingTeacherFor	
-	"Taras Korobov"
-	"Kuznetsov Vasily Arkadevich"
+	(forWhom "Taras Korobov")
+	(teacherName "Kuznetsov Vasily Arkadevich")
 )
 
 
 
 (interestingThemeFor  	
-	"Fedor Symkin"
-	"Using machine learning to planing"
+	(forWhom "Fedor Symkin")
+	(interestingTheme "Using machine learning to planing")
 )
 (arrangeTimeFor  	
-	"Fedor Symkin"
-	13
+	(forWhom "Fedor Symkin")
+	(time 13)
 )
 (actualThemeFor  	
-	"Fedor Symkin"
-	"Using machine learning to recognize different subjects"
+	(forWhom "Fedor Symkin")
+	(actualTheme "Using machine learning to recognize different subjects")
 )
 (actualThemeFor  	
-	"Fedor Symkin"
-	"Using machine learning to planing"
+	(forWhom "Fedor Symkin")
+	(actualTheme "Using machine learning to planing")
 )
 
 (usefulThemeFor  	
-	"Fedor Symkin"
-	"Using machine learning to recognize different subjects"
+	(forWhom "Fedor Symkin")
+	(usefulTheme "Using machine learning to recognize different subjects")
 )
 (usefulThemeFor  	
-	"Fedor Symkin"
-	"Using machine learning to planing"
+	(forWhom "Fedor Symkin")
+	(usefulTheme "Using machine learning to planing")
 )
 (interesingTeacherFor	
-	"Fedor Symkin"
-	"Kuznetsov Vasily Arkadevich"
+	(forWhom "Fedor Symkin")
+	(teacherName "Kuznetsov Vasily Arkadevich")
 )
 
 )
