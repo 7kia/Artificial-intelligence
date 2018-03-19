@@ -1,3 +1,11 @@
+(assert
+    (willGo
+        (studentName "Igor Pavlov")
+        (seminarTheme "The use of artificial intelligence in personal wireless networks")
+        (arrangeTime 9)
+    )
+)
+; TRUE
 
 (willGo
     "Igor Pavlov"
@@ -8,6 +16,13 @@
 
 
 (willGo
+    (studentName "Igor Pavlov")
+    (seminarTheme The use of artificial intelligence in personal wireless networks")
+    (arrangeTime 9)
+    (teacher "Sidorkina Irina Gennadievna")
+)
+
+(willGo
     "Valentin Syharev"
     "Psychology of Personality"
     11
@@ -15,9 +30,9 @@
 )
 (willGo
     "Valentin Syharev"
-    "Psychology of Personality"
+    "Using machine learning to recognize different subjects"
     13
-    "Hinkanina Alla Leonidovna"
+   "Kuznetsov Vasily Arkadevich"
 )
 
 (willGo
@@ -30,12 +45,6 @@
 (willGo
     "Taras Korobov"
     "Using machine learning to recognize different subjects"
-    8
-    "Kuznetsov Vasily Arkadevich"
-)
-(willGo
-    "Fedor Symkin"
-    "Using machine learning to planing"
     13
     "Kuznetsov Vasily Arkadevich"
 )
