@@ -3,7 +3,6 @@
         (theme ?theme)
         (teacher ?teacher)
         (lessonStart ?lessonStart)
-        (lessonEnd ?lessonEnd)
     )
    (and
         (interestingThemeFor (forWhom ?studentName) (interestingTheme ?theme) )

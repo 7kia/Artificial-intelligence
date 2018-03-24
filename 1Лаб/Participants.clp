@@ -37,6 +37,7 @@
 
 
 
+
 (deffacts participantsData "The comment"
     (arrangeTimeFor
         (forWhom "Igor Pavlov")
@@ -82,11 +83,18 @@
         (forWhom "Fedor Symkin")
         (time 13)
     )
+    (arrangeTimeFor
+        (forWhom "Fedor Symkin")
+        (time 15)
+    )
     (interestingThemeFor
         (forWhom "Fedor Symkin")
         (interestingTheme "Using machine learning to planing")
     )
-
+    (interestingThemeFor
+        (forWhom "Fedor Symkin")
+        (interestingTheme "Psychology of Personality")
+    )
 
 
 )

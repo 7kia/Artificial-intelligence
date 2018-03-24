@@ -1,0 +1,102 @@
+; Sat Mar 24 10:33:10 MSK 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([Lab1_Class13] of  seminar
+
+	(lessonStart 9)
+	(teacher "Sidorkina Irina Gennadievna")
+	(theme "The use of artificial intelligence in personal wireless networks"))
+
+([Lab1_Class14] of  %3AINSTANCE-ANNOTATION
+
+	(%3AANNOTATED-INSTANCE [Lab1_Class13])
+	(%3AANNOTATION-TEXT "d")
+	(%3ACREATION-TIMESTAMP "2018.03.24 09:29:41.051 MSK")
+	(%3ACREATOR "Илья"))
+
+([Lab1_Class15] of  %3AINSTANCE-ANNOTATION
+
+	(%3AANNOTATED-INSTANCE [Lab1_Class13])
+	(%3AANNOTATION-TEXT "d")
+	(%3ACREATION-TIMESTAMP "2018.03.24 09:29:43.880 MSK")
+	(%3ACREATOR "Илья"))
+
+([Lab1_Class16] of  seminar
+
+	(lessonStart 11)
+	(teacher "Hinkanina Alla Leonidovna")
+	(theme "Psychology of Personality"))
+
+([Lab1_Class17] of  seminar
+
+	(lessonStart 13)
+	(teacher "Kuznetsov Vasily Arkadevich")
+	(theme "Using machine learning to recognize different subjects"))
+
+([Lab1_Class18] of  seminar
+
+	(lessonStart 15)
+	(teacher "Hinkanina Alla Leonidovna")
+	(theme "Psychology of Personality"))
+
+([Lab1_Class19] of  interestingThemeFor
+
+	(forWhom "Igor Pavlov")
+	(interestingTheme "The use of artificial intelligence in personal wireless networks"))
+
+([Lab1_Class20] of  interestingThemeFor
+
+	(forWhom "Valentin Syharev")
+	(interestingTheme "Psychology of Personality"))
+
+([Lab1_Class21] of  interestingThemeFor
+
+	(forWhom "Petr Arbuzov")
+	(interestingTheme "Using machine learning to recognize different subjects"))
+
+([Lab1_Class22] of  interestingThemeFor
+
+	(forWhom "Taras Korobov")
+	(interestingTheme "Using machine learning to recognize different subjects"))
+
+([Lab1_Class23] of  interestingThemeFor
+
+	(forWhom "Fedor Symkin")
+	(interestingTheme "Using machine learning to planing"))
+
+([Lab1_Class24] of  interestingThemeFor
+
+	(forWhom "Fedor Symkin")
+	(interestingTheme "Psychology of Personality"))
+
+([Lab1_Class25] of  arrangeTimeFor
+
+	(forWhom "Igor Pavlov")
+	(time 9))
+
+([Lab1_Class26] of  arrangeTimeFor
+
+	(forWhom "Valentin Syharev")
+	(time 11))
+
+([Lab1_Class27] of  arrangeTimeFor
+
+	(forWhom "Petr Arbuzov")
+	(time 13))
+
+([Lab1_Class28] of  arrangeTimeFor
+
+	(forWhom "Taras Korobov")
+	(time 9))
+
+([Lab1_Class29] of  arrangeTimeFor
+
+	(forWhom "Fedor Symkin")
+	(time 13))
+
+([Lab1_Class30] of  arrangeTimeFor
+
+	(forWhom "Fedor Symkin")
+	(time 15))
