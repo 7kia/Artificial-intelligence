@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY a 'http://protege.stanford.edu/system#'>
+	 <!ENTITY kb 'http://protege.stanford.edu/kb#'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:a="&a;"
+	 xmlns:kb="&kb;"
+	 xmlns:rdfs="&rdfs;">
+<kb:seminar rdf:about="&kb;Lab1_Class13"
+	 kb:lessonStart="9"
+	 kb:teacher="Sidorkina Irina Gennadievna"
+	 rdfs:label="Lab1_Class13">
+	<kb:theme>The use of artificial intelligence in personal wireless networks</kb:theme>
+</kb:seminar>
+<a:_instance_annotation rdf:about="&kb;Lab1_Class14"
+	 a:_annotation_text="d"
+	 a:_creation_timestamp="2018.03.24 09:29:41.051 MSK"
+	 a:_creator="Илья"
+	 rdfs:label="d">
+	<a:_annotated_instance rdf:resource="&kb;Lab1_Class13"/>
+</a:_instance_annotation>
+<a:_instance_annotation rdf:about="&kb;Lab1_Class15"
+	 a:_annotation_text="d"
+	 a:_creation_timestamp="2018.03.24 09:29:43.880 MSK"
+	 a:_creator="Илья"
+	 rdfs:label="d">
+	<a:_annotated_instance rdf:resource="&kb;Lab1_Class13"/>
+</a:_instance_annotation>
+<kb:seminar rdf:about="&kb;Lab1_Class16"
+	 kb:lessonStart="11"
+	 kb:teacher="Hinkanina Alla Leonidovna"
+	 kb:theme="Psychology of Personality"
+	 rdfs:label="Lab1_Class16"/>
+<kb:seminar rdf:about="&kb;Lab1_Class17"
+	 kb:lessonStart="13"
+	 kb:teacher="Kuznetsov Vasily Arkadevich"
+	 kb:theme="Using machine learning to recognize different subjects"
+	 rdfs:label="Lab1_Class17"/>
+<kb:seminar rdf:about="&kb;Lab1_Class18"
+	 kb:lessonStart="15"
+	 kb:teacher="Hinkanina Alla Leonidovna"
+	 kb:theme="Psychology of Personality"
+	 rdfs:label="Lab1_Class18"/>
+<kb:interestingThemeFor rdf:about="&kb;Lab1_Class19"
+	 kb:forWhom="Igor Pavlov"
+	 rdfs:label="Lab1_Class19">
+	<kb:interestingTheme>The use of artificial intelligence in personal wireless networks</kb:interestingTheme>
+</kb:interestingThemeFor>
+<kb:interestingThemeFor rdf:about="&kb;Lab1_Class20"
+	 kb:forWhom="Valentin Syharev"
+	 kb:interestingTheme="Psychology of Personality"
+	 rdfs:label="Lab1_Class20"/>
+<kb:interestingThemeFor rdf:about="&kb;Lab1_Class21"
+	 kb:forWhom="Petr Arbuzov"
+	 kb:interestingTheme="Using machine learning to recognize different subjects"
+	 rdfs:label="Lab1_Class21"/>
+<kb:interestingThemeFor rdf:about="&kb;Lab1_Class22"
+	 kb:forWhom="Taras Korobov"
+	 kb:interestingTheme="Using machine learning to recognize different subjects"
+	 rdfs:label="Lab1_Class22"/>
+<kb:interestingThemeFor rdf:about="&kb;Lab1_Class23"
+	 kb:forWhom="Fedor Symkin"
+	 kb:interestingTheme="Using machine learning to planing"
+	 rdfs:label="Lab1_Class23"/>
+<kb:interestingThemeFor rdf:about="&kb;Lab1_Class24"
+	 kb:forWhom="Fedor Symkin"
+	 kb:interestingTheme="Psychology of Personality"
+	 rdfs:label="Lab1_Class24"/>
+<kb:arrangeTimeFor rdf:about="&kb;Lab1_Class25"
+	 kb:forWhom="Igor Pavlov"
+	 kb:time="9"
+	 rdfs:label="Lab1_Class25"/>
+<kb:arrangeTimeFor rdf:about="&kb;Lab1_Class26"
+	 kb:forWhom="Valentin Syharev"
+	 kb:time="11"
+	 rdfs:label="Lab1_Class26"/>
+<kb:arrangeTimeFor rdf:about="&kb;Lab1_Class27"
+	 kb:forWhom="Petr Arbuzov"
+	 kb:time="13"
+	 rdfs:label="Lab1_Class27"/>
+<kb:arrangeTimeFor rdf:about="&kb;Lab1_Class28"
+	 kb:forWhom="Taras Korobov"
+	 kb:time="9"
+	 rdfs:label="Lab1_Class28"/>
+<kb:arrangeTimeFor rdf:about="&kb;Lab1_Class29"
+	 kb:forWhom="Fedor Symkin"
+	 kb:time="13"
+	 rdfs:label="Lab1_Class29"/>
+<kb:arrangeTimeFor rdf:about="&kb;Lab1_Class30"
+	 kb:forWhom="Fedor Symkin"
+	 kb:time="15"
+	 rdfs:label="Lab1_Class30"/>
+</rdf:RDF>
